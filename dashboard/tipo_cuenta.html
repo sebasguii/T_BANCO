@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="sobre_nosotros.css">
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Dashboard</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="cajeros.html">Cajeros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="dashboard.html">Préstamos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tipo_cuenta.html">Tipos de cuenta</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+  <!-- TIPOS DE CUENTA -->
+   
+  <div class="card" style="width: 100%;" id="#tiposdecuenta">
+    <img src="https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/350fbee8-09df-4679-82e4-e0ebed05de76/GrupoBancolombia_Conocenos.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_9O44G4S049MAD06H7SNS78I2D3-350fbee8-09df-4679-82e4-e0ebed05de76-o2k--IN" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4>Tabla de clientes con tipo de cuenta</h4>
+      <div class="table-responsive">
+        <table class="table">
+          <tr>
+            <th><strong>T.Documento</strong></th>
+            <th><strong>N.Documento</strong></th>
+            <th><strong>Nombre</strong></th>
+            <th><strong>Primer apellido</strong></th>
+            <th><strong>Segundo apellido</strong></th>
+            <th><strong>Correo electronico</strong></th>
+            <th><strong>sexo</strong></th>
+            <th><strong>N.telefono</strong></th>
+            <th><strong>T.Cuenta</strong></th>
+            </tr>
+
+            <tr>
+            <td>CC</td>
+            <td>1040328167</td>
+            <td>Sebastian</td>
+            <td>Gutierrez</td>
+            <td>Martinez</td>
+            <td>sebascantador@gmail.com</td>
+            <td>M</td>
+            <td>3136097114</td>
+            <td>Ahorros</td>
+            </tr>
+
+            <tr>
+                <td>CC</td>
+                <td>1040201252</td>
+                <td>Angi</td>
+                <td>Gallego</td>
+                <td>Hernandez</td>
+                <td>Angi0315@gmail.com</td>
+                <td>F</td>
+                <td>3148475870</td>
+                <td>Ahorros</td>
+            </tr>
+
+            <tr>
+                <td>CC</td>
+                <td>1040456780</td>
+                <td>Emiliano</td>
+                <td>Gutierrez</td>
+                <td>Gallego</td>
+                <td>emigg@gmail.com</td>
+                <td>M</td>
+                <td>320352652</td>
+                <td>Credito</td>
+            </tr>
+
+            <tr>
+                <td>CC</td>
+                <td>1040856987</td>
+                <td>Alanha</td>
+                <td>Gutierrez</td>
+                <td>Gallego</td>
+                <td>Agutierrezg@gmail.com</td>
+                <td>F</td>
+                <td>316585963</td>
+                <td>CDT</td>
+            </tr>
+          
+            <tr>
+                <td>CC</td>
+                <td>1040328167</td>
+                <td>Sebastian</td>
+                <td>Gutierrez</td>
+                <td>Martinez</td>
+                <td>sebascantador@gmail.com</td>
+                <td>M</td>
+                <td>3136097114</td>
+                <td>CDT</td>
+            </tr>
+        </table>
+      </div>
+      <br><br>
+<div class="boton_m">           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registros">
+Registrar cliente con tipo de cuenta.
+</button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="registros" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+  <h1 class="modal-title fs-5" id="exampleModalLabel">Registro con tipo de cuenta</h1>
+  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+  <div class="registro">
+    <form action="trabajocss.html">
+        <label for="select"><strong>Seleccione su tipo de documento</strong></label>
+        <br><br>
+        <select name="Documento" id="Documento">
+        <option value="CC">CC</option>
+        <option value="TI">Targeta de identidad</option>
+        <option value="CE">cedula de extrangeria</option>
+        <option value="PS">Pasaporte</option>
+     </select>
+     <br>
+     <br>
+    <label for="ID"> <strong>Digite su  documento</strong></label>
+    <br><br>
+    <input type="text" placeholder="Numero de documento" required>
+    <br><br>
+    <label for="Name"><strong>Digite su nombre</strong></label>
+    <br><br>
+    <input type="text" placeholder="Nombre" required>
+    <br><br>
+    <label for="ID"><strong>Digite sus apellidos</strong></label>
+    <br><br>
+    <input type="text" placeholder="Apellidos" required>
+    <br><br>
+    <label for="ID"><strong>Digite sus correo</strong></label>
+    <br><br>
+    <input type="email" placeholder="Correo electronico" required>
+    <br><br>
+    <label for="password"><strong>Digite una contraseña</strong></label>
+    <br><br>
+    <input type="password" placeholder="Contraseña" required>
+    
+    <br><br>
+    <label for="com_pasword"><strong>Confirme su contraseña</strong></label>
+    <br><br>
+    <input type="password" placeholder="Confirme su contraseña" required>
+    <br><br>
+    <label for="ID"><strong>Digite su numero telefonico</strong></label>
+    <br><br>
+    <input type="text" placeholder="Numero telefonico" required>
+    <br><br>
+    <label for="ID"><strong>Seleccione su sexo: </strong></label>
+    <br><br>
+    <Label>M</Label>
+    <input type="checkbox" >
+    <label >F</label>
+    <input type="checkbox">
+    <label >OTRO</label>
+    <input type="checkbox">
+
+    <br><br>
+    <label for=""><strong>Seleccione el tipo de cuenta de su interes: </strong></label>
+    <br><br>
+    <select name="t_cuenta" id="t_c">
+        <option value="ahorros">Ahorros</option>
+        <option value="credito">Credito</option>
+        <option value="CDT">CDT</option>
+    </select>
+    <br><br>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+  <button type="button" class="btn btn-primary">Registrar</button>
+</div>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</section>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

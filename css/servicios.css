@@ -1,0 +1,200 @@
+/* ESTILOS SERVICIOS */
+
+body{
+    background-color: #e9e9e9;
+}
+.container-fluid{
+    background-color:#AFBEC7 ;
+    
+}
+.navbar-brand{
+    margin-right:100px;
+}
+
+/* DROPDOWN SERVICIOS */
+.dropdown-menu{
+    width: 100%;
+    background-color:#AFBEC7 ;
+   background-size: cover;
+}
+.dropdown-item{
+    background-color:#AFBEC7 ;
+    background-size: cover;
+    width: 100%;
+ 
+}
+
+div .nav-item{
+    color: #383b3d;
+    display: grid;
+    justify-content: center;
+    margin-top: 7px;
+    border: none;
+    background-color:#AFBEC7 ;
+}
+
+
+.banner{
+    height: 400px;
+    background-image: url('https://www.bbva.ch/content/dam/public-web/suiza/images/banca-privada-/servicios-financieros/CabeceraSerFinancieros.im1712310957603im.png?imwidth=3200');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* SERVICIOS */
+
+/* Tipos de cuenta */
+.cuenta_ahorros{
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#ahorros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ahorros aside{
+    width: 50%;
+    min-width: 300px;
+    background-color: #cec8c8;
+    border: groove beige;
+    border-radius: 20px;
+}
+#ahorros .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ahorros img{
+    width: 100%;
+    
+    
+}
+
+/* _________________ */
+
+.cuenta_credito{
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#credito{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#credito aside{
+    width: 50%;
+    min-width: 300px;
+    background-color: #cec8c8;
+    border: groove beige;
+    border-radius: 20px;
+}
+#credito .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside img{
+    width: 100%;
+    display: flexbox;
+    align-items: flex-start;
+    
+    
+}
+
+/* --------------------- */
+
+.cuenta_cdt{
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+   
+    
+}
+#cdt{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+
+}
+#cdt aside{
+    width: 50%;
+    min-width: 300px;
+    background-color: #cec8c8;
+    border: groove beige;
+    border-radius: 20px;
+}
+#cdt .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+aside img{
+    width: 100%;
+    height: 100%;
+}
+
+/* ************TABLA */
+
+.card{
+    display: flexbox;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+
+footer {
+    background-color: #00515c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+  /* MODAL REGISTRO */
+  .boton_m{
+    display: grid;
+    justify-content: center;
+
+  }
+
+  /* HASTA AQUI VAN LOS DE SERVICIOS */

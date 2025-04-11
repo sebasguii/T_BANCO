@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="servicios.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Banco</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a>
+              </li>
+              <!-- DROPDOWN DE SERVICIOS -->
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button class="nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#ahorros">Cuenta ahorros</a></li>
+                    <li><a class="dropdown-item" href="#credito">Cuenta de credito</a></li>
+                    <li><a class="dropdown-item" href="#cdt">Cuenta CDT</a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- ************** -->
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sitios_interes.html">Sitios de intrés</a>
+              </li>
+              <li class="nav-item" id="iniciar_sesion">
+                <a class="nav-link" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Inicia sesión</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            
+
+                <form action="dashboard.html">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                  </form>
+
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <section class="banner">
+        <h1>SERVICIOS</h1>
+    </section>
+    <br>
+    <br>
+    <main>
+      <section class="cuenta_ahorros" id="ahorros">
+        <aside class="info">
+          <h2>CUENTA DE AHORROS</h2><br> 
+          <p>Una cuenta de ahorros es un tipo de cuenta bancaria diseñada para guardar dinero de manera segura mientras genera intereses con el tiempo. Suele tener un acceso más restringido en comparación con una cuenta corriente, ya que su propósito principal es fomentar el ahorro <br><br>
+
+            Características principales: <br><br>
+            
+            * Genera intereses: El banco paga un porcentaje sobre el saldo de la cuenta <br><br>
+            
+            * Liquidez moderada: Puedes retirar dinero, pero a veces con limitaciones o costos. <br><br>
+            
+            * Seguridad: Protege el dinero contra robos o pérdidas. <br><br>
+            
+            *Bajo costo de mantenimiento: Generalmente tiene menos comisiones que una cuenta corriente.</p> <br><br>
+        </aside>
+        <aside class="img">
+          <img src="closeup-image-man-hand-putting-600nw-2508252931.webp" alt="">
+        </aside>
+
+      </section>
+
+      <section class="cuenta_credito" id="credito">
+        <aside class="img">
+          <img src="vector-illustration-list-bills-stored-600nw-2096276047.webp" alt="">
+        </aside>
+        <aside class="info">
+          <h2>CUENTA CREDITO</h2><br> 
+          <p>cuenta de crédito es un tipo de cuenta bancaria que permite al titular disponer de un monto de dinero prestado por la entidad financiera hasta un límite establecido. Funciona como una línea de crédito, permitiendo realizar retiros o pagos según sea necesario, con la obligación de devolver el dinero prestado junto con los intereses generados. <br><br>
+
+            Características principales: <br><br>
+            
+            * Límite de crédito: El banco establece un monto máximo que se puede utilizar. <br><br>
+            
+            * Intereses: Se pagan intereses solo sobre el dinero utilizado, no sobre el total disponible. <br><br>
+            
+            * Flexibilidad: Permite retirar y devolver dinero dentro del límite asignado. <br><br>
+            
+            * Uso recurrente: Al pagar lo utilizado, el crédito se renueva y puede usarse nuevamente. <br><br>
+            
+            * Posibles comisiones: Puede haber costos por apertura, mantenimiento o retiros.</p> <br><br>
+        </aside>
+      </section>
+
+      <section class="cuenta_cdt" id="cdt">
+        <aside class="info">
+          <h2>CUENTA CDT</h2><br> 
+          <p>Un CDT (Certificado de Depósito a Término) es un producto financiero en el que una persona o empresa deposita una cantidad de dinero en una entidad bancaria por un plazo determinado a cambio de una tasa de interés fija. Durante ese tiempo, el dinero no puede ser retirado sin penalizaciones. <br><br>
+
+            Características principales: <br><br>
+            
+            * Rentabilidad fija: La tasa de interés se acuerda al inicio y no cambia durante el plazo del CDT. <br><br>
+            
+            * Plazo determinado: Puede variar desde unos pocos meses hasta varios años. <br><br>
+            
+            * Seguridad: Es una inversión de bajo riesgo, ya que está respaldada por el banco. <br><br>
+            
+            *Liquidez limitada: No se puede retirar el dinero antes del vencimiento sin perder parte de los intereses o pagar una penalización. <br><br>
+          </p>
+        </aside>
+        <aside class="img">
+          <img src="CDT.jpeg" alt="">
+        </aside>
+
+      </section>
+    </main>
+
+
+    <footer>
+      &copy; 2025 Maze Bank. Todos los derechos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+</body>
+</html>
