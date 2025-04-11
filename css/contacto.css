@@ -1,0 +1,165 @@
+body{
+    background-color: #e9e9e9;
+}
+
+.navbar-brand{
+    margin-right:100px;
+}
+
+
+
+.banner{
+    height: 400px;
+    background-image: url('https://www.bbva.ch/content/dam/public-web/suiza/images/banca-privada-/servicios-financieros/CabeceraSerFinancieros.im1712310957603im.png?imwidth=3200');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info_contacto {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.info_contacto .info {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.info_contacto .info h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.info_contacto .img {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.info_contacto .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.canales_contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.canales_contacto .card {
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.canales_contacto h4 {
+    color: #2c3e50;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.canales_contacto h4 i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+.canales_contacto .btn-primary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.formulario_contacto {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.formulario_contacto h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 0;
+}
+
+.formulario_contacto .form-control,
+.formulario_contacto .form-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario_contacto textarea {
+    min-height: 120px;
+}
+
+.formulario_contacto button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #00515c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+    
+    .info_contacto .info, 
+    .info_contacto .img {
+        flex: 100%;
+    }
+    
+    .formulario_contacto {
+        padding: 20px;
+    }
+}
