@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="sobre_nosotros.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Banco</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav"> 
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contáctanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sitios_interes.html">Sitios de intrés</a>
+              </li>
+              <li class="nav-item" id="iniciar_sesion">
+                <a class="nav-link"  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    
+
+
+    <section class="banner">
+        <h1>SOBRE NOSOTROS</h1>
+    </section>
+
+    <main>
+      <section class="info_sobre_nosotros" id="sobre_nosotros">
+        <aside class="info">
+          <h2>SOMOS MÁS QUE UN BANCO</h2><br> 
+          <p>Somos un grupo financiero líder, con más de 146 años de experiencia y que evoluciona para asumir los desafíos que trae un entorno en constante transformación.
+            <br><br>
+            Nuestras acciones tienen como principios básicos la ética y la integridad, con el propósito de promover desarrollo económico sostenible para lograr el bienestar de todos.
+            <br><br>
+            Somos una organización en crecimiento, rentable, con casi 30,000 colaboradores y presencia en Colombia, Panamá, Guatemala y El Salvador. Desde hace 25 años estamos en la Bolsa de Valores de Nueva York (NYSE), siendo la primera entidad financiera colombiana listada en ese mercado.</p>
+        </aside>
+        <aside class="img">
+          <img src="https://comunidad.mattelsa.net:442/api/file/IMG_ba60b7aa-70e3-4bde-abbc-449877ff2a89.jpg" alt="">
+        </aside>
+
+      </section>
+
+
+      <section class="info_sobre_nosotros">
+        <div class="card" style="width:500px;">
+          <img src="https://img2.rtve.es/n/15960264" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4>Nuestra historia</h4>
+            <p class="card-text">Desde nuestra fundación en el año 2002, hemos crecido junto a millones de colombianos que confían en nuestros servicios. Hoy contamos con presencia en más de 30 ciudades y una sólida infraestructura digital.</p>
+          </div>
+        </div>
+    
+        <div class="card" style="width: 500px;">
+          <img src="https://www.grupobancolombia.com/wcm/connect/www.grupobancolombia.com15880/350fbee8-09df-4679-82e4-e0ebed05de76/GrupoBancolombia_Conocenos.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_9O44G4S049MAD06H7SNS78I2D3-350fbee8-09df-4679-82e4-e0ebed05de76-o2k--IN" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4>Misión y visión</h4>
+            <p class="card-text">Nuestra misión es brindar servicios financieros confiables, accesibles e innovadores que impulsen el desarrollo económico y personal de nuestros clientes.</p>
+            <p class="card-text">Nuestra Visión es ser el banco líder en soluciones digitales en América Latina, reconocido por su compromiso con la excelencia y la inclusión financiera.</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+
+    <footer>
+      &copy; 2025 Maze Bank. Todos los derechos reservados.
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Inicia sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          
+
+              <form action="dashboard.html">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Dirección de correo</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                </form>
+
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+</body>
+</html>
