@@ -1,0 +1,71 @@
+body{
+    background-color: #e9e9e9;
+}
+.navbar-brand{
+    margin-right:100px;
+}
+
+
+
+.banner{
+    height: 400px;
+    background-image: url('https://www.bbva.ch/content/dam/public-web/suiza/images/banca-privada-/servicios-financieros/CabeceraSerFinancieros.im1712310957603im.png?imwidth=3200');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info_sobre_nosotros{
+    width: 95%;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#sobre_nosotros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#sobre_nosotros aside{
+    width: 50%;
+    min-width: 300px;
+}
+#sobre_nosotros .info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sobre_nosotros img{
+    width: 100%;
+    
+    
+}
+
+
+
+
+footer {
+    background-color: #00515c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
